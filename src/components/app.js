@@ -1,10 +1,15 @@
 import React, { Component } from 'react';
-import CalculateDistanceComponent from './calculate-distance';
+
+import CalculateDistanceComponent from '../containers/calculate-distance';
+import DistanceChart from '../containers/chart'
 
 export default class App extends Component {
   render() {
     return (
-      <CalculateDistanceComponent />
+      <div>
+        <CalculateDistanceComponent />
+        <DistanceChart />
+      </div>
     );
   }
 }

@@ -1,4 +1,4 @@
-
+/**Main form css**/
 .mainContainer{
     text-align: center;
 }
@@ -20,4 +20,12 @@
 }
 .finalDistance{
     padding: 15px;
+}
+
+/**Main chart css**/
+.mainChart{
+    text-align: center;
+}
+.recharts-wrapper{
+    display: inline-block;
 }
